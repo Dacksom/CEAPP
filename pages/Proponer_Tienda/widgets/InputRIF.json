@@ -1,0 +1,68 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 23,
+  "boxShadow": "none",
+  "defaultText": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "onTextChanged"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onTextChanged"
+    }
+  ],
+  "iconAlign": "left",
+  "inputType": "TEXT",
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "nrl48ansog",
+  "label": "RIF",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextColor": "#ffffff",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 44,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 18,
+  "mobileLeftColumn": 37,
+  "mobileRightColumn": 57,
+  "mobileTopRow": 11,
+  "needsErrorInfo": false,
+  "onTextChanged": "{{\n  (() => {\n    let cleaned = InputRIF.text\n      .replace(/[^a-zA-Z0-9]/g, \"\") // eliminar guiones, espacios, símbolos\n      .toUpperCase();               // convertir a mayúsculas\n\n    // Solo permitir UNA letra al inicio (y que sea V, E o J), y luego números\n    if (cleaned.length > 0) {\n      const firstChar = cleaned.charAt(0);\n      const rest = cleaned.slice(1).replace(/[^0-9]/g, \"\"); // solo números después\n\n      if (\"VEJ\".includes(firstChar)) {\n        InputRIF.setValue(firstChar + rest.slice(0, 10)); // máximo 10 dígitos\n      } else {\n        InputRIF.setValue(rest.slice(0, 10)); // si la letra inicial no es válida, la elimina\n      }\n    } else {\n      InputRIF.setValue(\"\");\n    }\n  })()\n}}",
+  "originalBottomRow": 23,
+  "originalTopRow": 16,
+  "parentColumnSpace": 6.84375,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "placeholderText": "Ingresa el RIF",
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "responsiveBehavior": "fill",
+  "rightColumn": 62,
+  "showStepArrows": false,
+  "topRow": 16,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "pevkaaewk4",
+  "widgetName": "InputRIF"
+}
