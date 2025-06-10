@@ -16,16 +16,17 @@ export default {
 
       if (!usuario.activo) {
         showAlert("El usuario no está activo. Por favor comuníquese con Rapikom.", "warning");
-      } else {
-        storeValue("usuario", usuario);
-        showAlert("Inicio de sesión exitoso", "success");
-
-        if (usuario.rol === "captador") {
-          navigateTo("Dashboard_Captador");
-        } else {
-          navigateTo("Dashboard_Admin");
-        }
+        return;
       }
+
+      if (usuario.rol !== "captador") {
+        showModal("ModalRedirigirAdmin");
+        return;
+      }
+
+      storeValue("usuario", usuario);
+      showAlert("Inicio de sesión exitoso", "success");
+      navigateTo("Dashboard_Captador");
 
     } else {
       showAlert("Credenciales incorrectas", "error");

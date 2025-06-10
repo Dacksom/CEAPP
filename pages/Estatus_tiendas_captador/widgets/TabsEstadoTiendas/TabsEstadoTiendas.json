@@ -189,6 +189,51 @@
       "version": 1,
       "widgetId": "68laqul252",
       "widgetName": "Canvas4"
+    },
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 10,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "isLoading": false,
+      "isVisible": true,
+      "key": "aimz2cwhbv",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 50,
+      "minWidth": 450,
+      "mobileBottomRow": 51,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 424.3125,
+      "mobileTopRow": 1,
+      "needsErrorInfo": false,
+      "parentColumnSpace": 1,
+      "parentId": "eiqn68mwtr",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 424.3125,
+      "tabId": "tabaf684i0v9f",
+      "tabName": "Pendientes por Activar",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "6cdvi946qr",
+      "widgetName": "Canvas8"
     }
   ],
   "defaultTab": "Pendientes por Revisión",
@@ -233,6 +278,7 @@
     "tab1": {
       "id": "tab1",
       "index": 0,
+      "isDuplicateLabel": false,
       "isVisible": true,
       "label": "Pendientes por Revisión",
       "positioning": "vertical",
@@ -241,21 +287,32 @@
     "tab2": {
       "id": "tab2",
       "index": 1,
+      "isDuplicateLabel": false,
       "isVisible": true,
       "label": "Pendientes por Inducción",
       "positioning": "vertical",
       "widgetId": "lrn9z091bp"
     },
+    "tabaf684i0v9f": {
+      "id": "tabaf684i0v9f",
+      "index": 2,
+      "isDuplicateLabel": false,
+      "isVisible": true,
+      "label": "Pendientes por Activar",
+      "widgetId": "6cdvi946qr"
+    },
     "tabej7yczeggx": {
       "id": "tabej7yczeggx",
-      "index": 3,
+      "index": 4,
+      "isDuplicateLabel": false,
       "isVisible": true,
       "label": "Tienda No Calificada",
       "widgetId": "68laqul252"
     },
     "tabtw9mdbgflg": {
       "id": "tabtw9mdbgflg",
-      "index": 2,
+      "index": 3,
+      "isDuplicateLabel": false,
       "isVisible": true,
       "label": "Tiendas Activas",
       "widgetId": "vdbmg6d1wu"
