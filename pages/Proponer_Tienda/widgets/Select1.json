@@ -4,7 +4,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 44,
   "boxShadow": "none",
-  "defaultOptionValue": "[\n  \"Moda, Ropa y Zapatos\",\n  \"Farmacia y Cuidado Personal\",\n\tMultitiendas\n]",
+  "defaultOptionValue": "",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -14,16 +14,21 @@
     }
   ],
   "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
   "dynamicTriggerPathList": [],
   "isDisabled": false,
   "isFilterable": true,
   "isLoading": false,
   "isRequired": false,
   "isVisible": true,
-  "key": "6o1vz38qik",
+  "key": "1xanogi175",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelText": "Categoria",
+  "labelText": "Categorias",
   "labelTextColor": "#ffffff",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
@@ -31,38 +36,25 @@
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 46,
-  "mobileLeftColumn": 37,
-  "mobileRightColumn": 57,
-  "mobileTopRow": 39,
+  "mobileBottomRow": 44,
+  "mobileLeftColumn": 32,
+  "mobileRightColumn": 52,
+  "mobileTopRow": 37,
   "needsErrorInfo": false,
   "optionLabel": "name",
   "optionValue": "code",
   "parentColumnSpace": 6.84375,
   "parentId": "0",
   "parentRowSpace": 10,
-  "placeholderText": "Seleccione una Categoria",
+  "placeholderText": "Select option",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
   "rightColumn": 62,
   "serverSideFiltering": false,
-  "sourceData": [
-    {
-      "code": "BLUE",
-      "name": "Blue"
-    },
-    {
-      "code": "GREEN",
-      "name": "Green"
-    },
-    {
-      "code": "RED",
-      "name": "Red"
-    }
-  ],
+  "sourceData": "[\n  {\n    \"name\": \"Ropa\",\n    \"code\": \"Ropa\"\n  },\n  {\n    \"name\": \"Zapatos\",\n    \"code\": \"Zapatos\"\n  },\n  {\n    \"name\": \"Cuidado Personal\",\n    \"code\": \"Cuidado Personal\"\n  }\n]",
   "topRow": 37,
-  "type": "MULTI_SELECT_WIDGET_V2",
+  "type": "SELECT_WIDGET",
   "version": 1,
-  "widgetId": "4on0a1pto8",
-  "widgetName": "MultiSelect1"
+  "widgetId": "jfpffzo2us",
+  "widgetName": "Select1"
 }
