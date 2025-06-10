@@ -97,7 +97,7 @@
   "itemSpacing": 8,
   "key": "b7troq0139",
   "leftColumn": 0,
-  "listData": "{{ \n  TabsEstadoTiendas.selectedTab === \"Pendientes por Revisión\" ? Get_Tiendas_Revisar.data :\n  TabsEstadoTiendas.selectedTab === \"Pendientes por Inducción\" ? Get_Tiendas_Induccion.data :\n  TabsEstadoTiendas.selectedTab === \"Tiendas Activas\" ? Get_Tiendas_Activas.data :\n  Get_Tiendas_Rechazadas.data\n}}\n",
+  "listData": "{{ \n  TabsEstadoTiendas.selectedTab === \"Pendientes por Revisión\" ? Get_Tiendas_Revisar.data :\n\nTabsEstadoTiendas.selectedTab === \"Pendientes por Activar\" ? Get_Tiendas_PorActivar.data :\n\nTabsEstadoTiendas.selectedTab === \"Pendientes por Inducción\" ? Get_Tiendas_Induccion.data :\n  TabsEstadoTiendas.selectedTab === \"Tiendas Activas\" ? Get_Tiendas_Activas.data :\n  Get_Tiendas_Rechazadas.data\n}}\n",
   "mainCanvasId": "5ivhyt29ul",
   "mainContainerId": "g2taha0s4a",
   "minWidth": 450,

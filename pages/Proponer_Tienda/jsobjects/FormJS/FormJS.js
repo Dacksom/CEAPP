@@ -3,6 +3,7 @@ export default {
     // 1. Validación
     if (
       !InputNombreTienda.text.trim() ||
+			!InputIG.text.trim() ||
       !InputRIF.text.trim() ||
       !InputPersonaContacto.text.trim() ||
       !InputTelefono.text.trim() ||
@@ -24,6 +25,7 @@ export default {
       rif: InputRIF.text.trim(),
       persona_contacto: InputPersonaContacto.text.trim(),
       telefono: InputTelefono.text.trim(),
+			instagram: InputIG.text.trim(),
       estado: InputEstado.text.trim(),
       ciudad: InputCiudad.text.trim(),
       direccion: InputDireccion.text.trim(),
