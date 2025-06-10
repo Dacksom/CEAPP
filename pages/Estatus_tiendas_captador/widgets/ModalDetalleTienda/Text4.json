@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 42,
+  "bottomRow": 38,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -13,14 +13,14 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
   "fontSize": "1rem",
   "fontStyle": "BOLD",
   "isLoading": false,
   "isVisible": true,
-  "key": "hueh61qx0a",
+  "key": "4rnbccmy6s",
   "leftColumn": 1,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
@@ -30,23 +30,21 @@
   "mobileRightColumn": 17,
   "mobileTopRow": 34,
   "needsErrorInfo": false,
-  "originalBottomRow": 45,
-  "originalTopRow": 41,
   "overflow": "NONE",
   "parentColumnSpace": 6.4921875,
   "parentId": "nw2qfpj5wf",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 19,
+  "rightColumn": 23,
   "shouldTruncate": false,
-  "text": "🖼️ Imagen:",
+  "text": "📱 Instagram:",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 38,
+  "topRow": 34,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "hf80vf7zae",
-  "widgetName": "Text3"
+  "widgetId": "x165z09o80",
+  "widgetName": "Text4"
 }

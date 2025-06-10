@@ -8,7 +8,7 @@
       "encodeParamsToggle": true,
       "formData": {
         "body": {
-          "data": "{\n  \"nombre\": \"{{this.params.nombre}}\",\n  \"rif\": \"{{this.params.rif}}\",\n  \"persona_contacto\": \"{{this.params.persona_contacto}}\",\n  \"telefono\": \"{{this.params.telefono}}\",\n  \"estado\": \"{{this.params.estado}}\",\n  \"ciudad\": \"{{this.params.ciudad}}\",\n  \"direccion\": \"{{this.params.direccion}}\",\n  \"imagenes\": {{this.params.imagenes}},\n  \"captador_id\": \"{{this.params.captador_id}}\",\n  \"estado_actual\": \"{{this.params.estado_actual}}\",\n  \"fecha_creacion\": \"{{this.params.fecha_creacion}}\",\n  \"bonificaciones\": {{this.params.bonificaciones}}\n}\n"
+          "data": "{\n  \"nombre\": \"{{this.params.nombre}}\",\n  \"rif\": \"{{this.params.rif}}\",\n  \"persona_contacto\": \"{{this.params.persona_contacto}}\",\n  \"telefono\": \"{{this.params.telefono}}\",\n  \"estado\": \"{{this.params.estado}}\",\n  \"ciudad\": \"{{this.params.ciudad}}\",\n  \"direccion\": \"{{this.params.direccion}}\",\n  \"imagenes\": {{this.params.imagenes}},\n  \"captador_id\": \"{{this.params.captador_id}}\",\n  \"estado_actual\": \"{{this.params.estado_actual}}\",\n  \"fecha_creacion\": \"{{this.params.fecha_creacion}}\",\n\t\"instagram\": \"{{this.params.instagram}}\",\n  \"bonificaciones\": {{this.params.bonificaciones}}\n}\n"
         },
         "command": {
           "data": "ADD_TO_COLLECTION"
