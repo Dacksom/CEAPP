@@ -38,11 +38,11 @@
       "isDefault": false
     },
     {
-      "id": "Dashboard_Admin",
+      "id": "Estatus_tiendas_captador",
       "isDefault": false
     },
     {
-      "id": "Estatus_tiendas_captador",
+      "id": "Ver Mis Tiendas",
       "isDefault": false
     }
   ],

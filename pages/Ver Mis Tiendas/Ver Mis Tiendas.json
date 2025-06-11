@@ -1,12 +1,12 @@
 {
-  "gitSyncId": "68361b0199ac85635af1fb52_8927e1c9-23df-44d1-9ccc-3a5afe150f93",
+  "gitSyncId": "68361b0199ac85635af1fb52_55f669f4-ab09-4d49-be58-a168d725995e",
   "unpublishedPage": {
     "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 830,
+          "bottomRow": 1070,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
@@ -26,7 +26,7 @@
         }
       }
     ],
-    "name": "Dashboard_Admin",
-    "slug": "dashboard-admin"
+    "name": "Ver Mis Tiendas",
+    "slug": "ver-mis-tiendas"
   }
 }
