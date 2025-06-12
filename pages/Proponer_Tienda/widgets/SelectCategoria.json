@@ -1,0 +1,62 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 44,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "1xanogi175",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Categorias",
+  "labelTextColor": "#ffffff",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 32,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 44,
+  "mobileLeftColumn": 32,
+  "mobileRightColumn": 52,
+  "mobileTopRow": 37,
+  "needsErrorInfo": false,
+  "optionLabel": "name",
+  "optionValue": "code",
+  "originalBottomRow": 44,
+  "originalTopRow": 37,
+  "parentColumnSpace": 6.84375,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "placeholderText": "Selecciona una Opcion",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 62,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  { \"name\": \"Alimentos y bebidas\",        \"code\": \"Alimentos y bebidas\" },\n  { \"name\": \"Automóviles y motos\",        \"code\": \"Automóviles y motos\" },\n  { \"name\": \"Deportes\",                   \"code\": \"Deportes\" },\n  { \"name\": \"Electrodomésticos\",          \"code\": \"Electrodomésticos\" },\n  { \"name\": \"Electrónicos\",               \"code\": \"Electrónicos\" },\n  { \"name\": \"Cuidado personal\",           \"code\": \"Cuidado personal\" },\n  { \"name\": \"Ferretería\",                 \"code\": \"Ferretería\" },\n  { \"name\": \"Hogar y oficina\",            \"code\": \"Hogar y oficina\" },\n  { \"name\": \"Industrial y comercial\",     \"code\": \"Industrial y comercial\" },\n  { \"name\": \"Juguetes\",                   \"code\": \"Juguetes\" },\n  { \"name\": \"Librería\",                   \"code\": \"Librería\" },\n  { \"name\": \"Mascotas y animales\",        \"code\": \"Mascotas y animales\" },\n  { \"name\": \"Moda, ropa y calzado\",       \"code\": \"Moda, ropa y calzado\" },\n  { \"name\": \"Niños y bebés\",              \"code\": \"Niños y bebés\" },\n  { \"name\": \"Repuestos y partes\",         \"code\": \"Repuestos y partes\" },\n  { \"name\": \"Viajes y Turismo\",           \"code\": \"Viajes y Turismo\" }\n]\n",
+  "topRow": 37,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "jfpffzo2us",
+  "widgetName": "SelectCategoria"
+}
