@@ -1,9 +1,8 @@
 export default {
   async registrar() {
-    /* 1. Validación (todos obligatorios) */
+    /* 1. Validación – RIF ya NO es obligatorio */
     if (
       !InputNombreTienda.text.trim()           ||
-      !InputRIF.text.trim()                    ||
       !InputPersonaContacto.text.trim()        ||
       !InputTelefono.text.trim()               ||
       !InputEstado.text.trim()                 ||
@@ -15,27 +14,27 @@ export default {
       !InputImagenes.files.length
     ) {
       showAlert(
-        "Por favor, completa todos los campos, selecciona la categoría y sube al menos una imagen.",
+        "Por favor, completa todos los campos (el RIF ahora es opcional), selecciona la categoría y sube al menos una imagen.",
         "warning"
       );
       return;
     }
 
     /* 2. Subir imágenes */
-    const imagenes = await UpImage.subir();  // Devuelve array de URLs
+    const imagenes = await UpImage.subir();
 
-    /* 3. Crear documento en Firestore (colección CETIENDAS) */
+    /* 3. Crear documento en Firestore */
     await Create_Tienda.run({
       nombre          : InputNombreTienda.text.trim(),
-      rif             : InputRIF.text.trim(),
+      rif             : InputRIF.text.trim(),      // si está vacío se guarda ""
       persona_contacto: InputPersonaContacto.text.trim(),
       telefono        : InputTelefono.text.trim(),
       instagram       : InputIG.text.trim(),
       estado          : InputEstado.text.trim(),
       ciudad          : InputCiudad.text.trim(),
       direccion       : InputDireccion.text.trim(),
-      categoria       : SelectCategoria.selectedOptionValue,   // nuevo
-      notas           : InputNotas.text.trim(),                // nuevo
+      categoria       : SelectCategoria.selectedOptionValue,
+      notas           : InputNotas.text.trim(),
       imagenes        : imagenes,
       captador_id     : appsmith.store.usuario.codigo_usuario,
       estado_actual   : "pendiente_revision",
