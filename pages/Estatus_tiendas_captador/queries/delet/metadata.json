@@ -1,6 +1,6 @@
 {
   "gitSyncId": "68361b0199ac85635af1fb52_fb0bc68c-4cd1-4027-9e03-a8c62b8aa9d9",
-  "id": "Estatus_tiendas_captador_Query1",
+  "id": "Estatus_tiendas_captador_delet",
   "pluginId": "firestore-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -57,7 +57,7 @@
       "pluginId": "firestore-plugin"
     },
     "dynamicBindingPathList": [],
-    "name": "Query1",
+    "name": "delet",
     "pageId": "Estatus_tiendas_captador",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false

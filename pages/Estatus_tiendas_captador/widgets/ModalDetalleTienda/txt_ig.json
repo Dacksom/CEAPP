@@ -33,8 +33,8 @@
   "mobileRightColumn": 35,
   "mobileTopRow": 30,
   "needsErrorInfo": false,
-  "originalBottomRow": 37,
-  "originalTopRow": 30,
+  "originalBottomRow": 45,
+  "originalTopRow": 41,
   "overflow": "NONE",
   "parentColumnSpace": 6.4921875,
   "parentId": "nw2qfpj5wf",
@@ -51,5 +51,5 @@
   "type": "TEXT_WIDGET",
   "version": 1,
   "widgetId": "mtp6be3y7c",
-  "widgetName": "TxtFechaCreacionCopy"
+  "widgetName": "txt_ig"
 }
