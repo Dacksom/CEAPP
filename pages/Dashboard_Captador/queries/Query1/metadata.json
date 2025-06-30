@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "68361b0199ac85635af1fb52_8cb6c53a-219a-4598-8a93-6213be0536a9",
-  "id": "Estatus_tiendas_captador_Get_Tiendas_Induccion",
+  "gitSyncId": "68361b0199ac85635af1fb52_781595c9-7852-4e95-8f32-0528cd6d596b",
+  "id": "Dashboard_Captador_Query1",
   "pluginId": "firestore-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -17,7 +17,7 @@
           "data": ""
         },
         "limitDocuments": {
-          "data": "1000"
+          "data": "10"
         },
         "next": {
           "data": ""
@@ -26,7 +26,7 @@
           "data": ""
         },
         "path": {
-          "data": "CETIENDAS"
+          "data": "CEUSERS"
         },
         "prev": {
           "data": ""
@@ -40,13 +40,8 @@
             "children": [
               {
                 "condition": "EQ",
-                "key": "captador_id",
-                "value": "{{appsmith.store.usuario.codigo_usuario}}"
-              },
-              {
-                "condition": "EQ",
-                "key": "estado_actual",
-                "value": "pendiente_induccion"
+                "key": "rol",
+                "value": "captador"
               }
             ],
             "condition": "AND"
@@ -63,14 +58,10 @@
       "name": "FirestoreRCash",
       "pluginId": "firestore-plugin"
     },
-    "dynamicBindingPathList": [
-      {
-        "key": "formData.where.data.children[0].value"
-      }
-    ],
-    "name": "Get_Tiendas_Induccion",
-    "pageId": "Estatus_tiendas_captador",
-    "runBehaviour": "ON_PAGE_LOAD",
+    "dynamicBindingPathList": [],
+    "name": "Query1",
+    "pageId": "Dashboard_Captador",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

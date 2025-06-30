@@ -56,6 +56,7 @@ export default {
     SelectCategoria.setSelectedOption(undefined);
     InputNotas.setValue("");
     resetWidget("InputImagenes");
+		resetWidget("SelectCategoria");
 
     /* 5. Ir a la lista */
     navigateTo("Mis_Tiendas");

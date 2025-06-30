@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 47,
+  "bottomRow": 44,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -30,8 +30,8 @@
   "mobileRightColumn": 17,
   "mobileTopRow": 34,
   "needsErrorInfo": false,
-  "originalBottomRow": 47,
-  "originalTopRow": 43,
+  "originalBottomRow": 44,
+  "originalTopRow": 40,
   "overflow": "NONE",
   "parentColumnSpace": 6.4921875,
   "parentId": "nw2qfpj5wf",
@@ -43,7 +43,7 @@
   "text": "📱 Instagram:",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 43,
+  "topRow": 40,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
