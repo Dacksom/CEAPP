@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "68361b0199ac85635af1fb52_7ba74f11-7d80-41de-a0a9-14822eb3412e",
-  "id": "Proponer_Tienda_Create_Tienda",
+  "gitSyncId": "68361b0199ac85635af1fb52_781dba2c-11b7-44f0-892e-56ca8aab9157",
+  "id": "Estatus_tiendas_captador_Update_Tienda",
   "pluginId": "firestore-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -8,10 +8,10 @@
       "encodeParamsToggle": true,
       "formData": {
         "body": {
-          "data": "{\n  \"nombre\": \"{{this.params.nombre}}\",\n  \"rif\": \"{{this.params.rif}}\",\n  \"persona_contacto\": \"{{this.params.persona_contacto}}\",\n  \"telefono\": \"{{this.params.telefono}}\",\n  \"estado\": \"{{this.params.estado}}\",\n  \"ciudad\": \"{{this.params.ciudad}}\",\n  \"direccion\": \"{{this.params.direccion}}\",\n  \"imagenes\": {{this.params.imagenes}},\n  \"captador_id\": \"{{this.params.captador_id}}\",\n  \"estado_actual\": \"{{this.params.estado_actual}}\",\n  \"fecha_creacion\": \"{{this.params.fecha_creacion}}\",\n\t\"instagram\": \"{{this.params.instagram}}\",\n  \"bonificaciones\": {{this.params.bonificaciones}},\n\t\"comentario_admin\": {{this.params.notas}}\n}\n"
+          "data": "{\n  \"comentario_admin\": \"{{ this.params.comentario }}\"\n}\n"
         },
         "command": {
-          "data": "ADD_TO_COLLECTION"
+          "data": "UPDATE_DOCUMENT"
         },
         "deleteKeyPath": {
           "data": ""
@@ -26,7 +26,7 @@
           "data": ""
         },
         "path": {
-          "data": "CETIENDAS"
+          "data": "CETIENDAS/{{this.params.id}}"
         },
         "prev": {
           "data": ""
@@ -58,11 +58,14 @@
     },
     "dynamicBindingPathList": [
       {
+        "key": "formData.path.data"
+      },
+      {
         "key": "formData.body.data"
       }
     ],
-    "name": "Create_Tienda",
-    "pageId": "Proponer_Tienda",
+    "name": "Update_Tienda",
+    "pageId": "Estatus_tiendas_captador",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }

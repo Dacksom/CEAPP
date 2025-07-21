@@ -1,23 +1,22 @@
 {
-  "gitSyncId": "68361b0199ac85635af1fb52_2ea01ad1-94b6-4776-b439-5ba748da743b",
+  "gitSyncId": "68361b0199ac85635af1fb52_417b5e4d-06fa-411d-b4b0-b91530024ce3",
   "unpublishedPage": {
-    "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 910,
+          "bottomRow": 850,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
-          "minHeight": 840,
+          "minHeight": 860,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
           "rightColumn": 1224,
           "snapColumns": 64,
-          "snapRows": 82,
+          "snapRows": 84,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 93,
@@ -26,7 +25,7 @@
         }
       }
     ],
-    "name": "Estatus_tiendas_captador",
-    "slug": "estatus-tiendas-captador"
+    "name": "Page1",
+    "slug": "page1"
   }
 }

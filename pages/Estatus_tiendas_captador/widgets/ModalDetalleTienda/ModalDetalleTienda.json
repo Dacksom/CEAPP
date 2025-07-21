@@ -57,7 +57,16 @@
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicTriggerPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClose"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClose"
+    }
+  ],
   "height": 1012,
   "isCanvas": true,
   "isLoading": false,
@@ -71,6 +80,7 @@
   "mobileRightColumn": 42,
   "mobileTopRow": -2,
   "needsErrorInfo": false,
+  "onClose": "{{ TiendaAcciones.guardarComentarioEmbajadorYCerrar() }}\n",
   "parentColumnSpace": 6.40625,
   "parentId": "0",
   "parentRowSpace": 10,

@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "68361b0199ac85635af1fb52_6f748944-f9c2-42d9-bbac-b6f3fb7ffd68",
+  "id": "Estatus_tiendas_captador_TiendaAcciones",
+  "unpublishedCollection": {
+    "name": "TiendaAcciones",
+    "pageId": "Estatus_tiendas_captador",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}
