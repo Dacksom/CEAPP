@@ -48,6 +48,10 @@
     {
       "id": "Page1",
       "isDefault": false
+    },
+    {
+      "id": "VerTodasLasTiendas",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {

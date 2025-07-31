@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "68361b0199ac85635af1fb52_c1f15658-bad9-4ca1-a6d9-a7d15a116243",
+  "id": "VerTodasLasTiendas_LookupCaptador",
+  "unpublishedCollection": {
+    "name": "LookupCaptador",
+    "pageId": "VerTodasLasTiendas",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}
