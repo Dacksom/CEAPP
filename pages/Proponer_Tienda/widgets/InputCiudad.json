@@ -3,22 +3,25 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 37,
+  "bottomRow": 48,
   "boxShadow": "none",
-  "defaultText": "",
+  "defaultText": "{{ appsmith.store.usuario.ciudad }}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "defaultText"
     }
   ],
   "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [],
   "iconAlign": "left",
   "inputType": "TEXT",
-  "isDisabled": false,
+  "isDisabled": true,
   "isLoading": false,
   "isRequired": false,
   "isVisible": true,
@@ -39,8 +42,8 @@
   "mobileRightColumn": 22,
   "mobileTopRow": 49,
   "needsErrorInfo": false,
-  "originalBottomRow": 37,
-  "originalTopRow": 30,
+  "originalBottomRow": 82,
+  "originalTopRow": 75,
   "parentColumnSpace": 6.84375,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -50,7 +53,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 62,
   "showStepArrows": false,
-  "topRow": 30,
+  "topRow": 41,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
   "widgetId": "rr8bf7smrc",
