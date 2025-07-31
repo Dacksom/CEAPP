@@ -17,7 +17,7 @@
           "data": ""
         },
         "limitDocuments": {
-          "data": "50"
+          "data": "10000"
         },
         "next": {
           "data": ""
@@ -42,11 +42,6 @@
                 "condition": "EQ",
                 "key": "rol",
                 "value": "captador"
-              },
-              {
-                "condition": "EQ",
-                "key": "activo",
-                "value": "true"
               }
             ],
             "condition": "AND"
