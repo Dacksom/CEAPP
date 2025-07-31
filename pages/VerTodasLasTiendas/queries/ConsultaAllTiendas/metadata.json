@@ -41,7 +41,7 @@
               {
                 "condition": "IN",
                 "key": "estado",
-                "value": "[\"Zulia\", \"zulia\"]\n"
+                "value": "[\"Zulia\", \"zulia\", \"ZULIA\"]\n"
               }
             ],
             "condition": "AND"
