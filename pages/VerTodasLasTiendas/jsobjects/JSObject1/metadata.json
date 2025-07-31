@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "68361b0199ac85635af1fb52_bf47aaf8-51cf-4468-b603-62caa317705f",
+  "id": "VerTodasLasTiendas_JSObject1",
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "VerTodasLasTiendas",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "usuarios",
+        "value": "[{\n  \"activo\": true,\n  \"cedula\": \"28088865\",\n  \"ciudad\": \"Maracaibo\",\n  \"codigo_usuario\": \"CAP865\",\n  \"correo\": \"andreaaedg@gmail.com\",\n  \"estado\": \"Zulia\",\n  \"foto\": \"\",\n  \"nombre\": \"Andrea Dominguez\",\n  \"rol\": \"captador\",\n  \"telefono\": \"04146520895\",\n  \"contraseña\": \"28088865\"\n}, {\n  \"activo\": true,\n  \"cedula\": \"26200046\",\n  \"ciudad\": \"Maracaibo\",\n  \"codigo_usuario\": \"CAP046\",\n  \"correo\": \"estefanypulgarm@gmail.com\",\n  \"estado\": \"Zulia\",\n  \"foto\": \"\",\n  \"nombre\": \"Estefany Pulgar\",\n  \"rol\": \"captador\",\n  \"telefono\": \"04126881622\",\n  \"contraseña\": \"26200046\"\n}, {\n  \"activo\": true,\n  \"cedula\": \"21488686\",\n  \"ciudad\": \"Maracaibo\",\n  \"codigo_usuario\": \"CAP686\",\n  \"correo\": \"sofimontiel@hotmail.com\",\n  \"estado\": \"Zulia\",\n  \"foto\": \"\",\n  \"nombre\": \"Sofia Montiel\",\n  \"rol\": \"captador\",\n  \"telefono\": \"04122856447\",\n  \"contraseña\": \"21488686\"\n}, {\n  \"activo\": true,\n  \"cedula\": \"27969786\",\n  \"ciudad\": \"Maracaibo\",\n  \"codigo_usuario\": \"CAP786\",\n  \"correo\": \"andyherdz17@gmail.com\",\n  \"estado\": \"Zulia\",\n  \"foto\": \"\",\n  \"nombre\": \"Andrea Hernández\",\n  \"rol\": \"captador\",\n  \"telefono\": \"04246979484\",\n  \"contraseña\": \"27969786\"\n}, {\n  \"activo\": true,\n  \"cedula\": \"27236087\",\n  \"ciudad\": \"Maracaibo\",\n  \"codigo_usuario\": \"CAP087\",\n  \"correo\": \"lauraamv22@gmail.com\",\n  \"estado\": \"Zulia\",\n  \"foto\": \"\",\n  \"nombre\": \"Maria Villalobos\",\n  \"rol\": \"captador\",\n  \"telefono\": \"04122986426\",\n  \"contraseña\": \"27236087\"\n}, {\n  \"activo\": true,\n  \"cedula\": \"30985254\",\n  \"ciudad\": \"Maracaibo\",\n  \"codigo_usuario\": \"CAP254\",\n  \"correo\": \"carlospehdz@gmail.com\",\n  \"estado\": \"Zulia\",\n  \"foto\": \"\",\n  \"nombre\": \"Carlos Perozo\",\n  \"rol\": \"captador\",\n  \"telefono\": \"04246480186\",\n  \"contraseña\": \"30985254\"\n}, {\n  \"activo\": true,\n  \"cedula\": \"26353105\",\n  \"ciudad\": \"Maracaibo\",\n  \"codigo_usuario\": \"CAP-ANGEL\",\n  \"correo\": \"angeldavidmonzant@gmail.com\",\n  \"estado\": \"Zulia\",\n  \"foto\": \"\",\n  \"nombre\": \"Ángel Monzant\",\n  \"rol\": \"captador\",\n  \"telefono\": \"04127508045\",\n  \"contraseña\": \"26353105\"\n}, {\n  \"activo\": true,\n  \"cedula\": \"23737960\",\n  \"ciudad\": \"Maracaibo\",\n  \"codigo_usuario\": \"CAP960\",\n  \"correo\": \"dickmaryelena@gmail.com\",\n  \"estado\": \"Zulia\",\n  \"foto\": \"\",\n  \"nombre\": \"Dickmary Urdaneta\",\n  \"rol\": \"captador\",\n  \"telefono\": \"04149635603\",\n  \"contraseña\": \"23737960\"\n}]"
+      }
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "68361b0199ac85635af1fb52_14ef5651-43cb-42e9-94b7-c9bea4233963",
-  "id": "VerTodasLasTiendas_Get_Captadores",
+  "gitSyncId": "68361b0199ac85635af1fb52_10a618f7-4c14-42d5-85d0-d7c905f57bca",
+  "id": "VerTodasLasTiendas_UpdateUsuarioPassword",
   "pluginId": "firestore-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -8,16 +8,16 @@
       "encodeParamsToggle": true,
       "formData": {
         "body": {
-          "data": ""
+          "data": "{\n  \"contraseña\": \"{{this.params.password}}\"\n}"
         },
         "command": {
-          "data": "GET_COLLECTION"
+          "data": "UPDATE_DOCUMENT"
         },
         "deleteKeyPath": {
           "data": ""
         },
         "limitDocuments": {
-          "data": "50"
+          "data": "10"
         },
         "next": {
           "data": ""
@@ -26,7 +26,7 @@
           "data": ""
         },
         "path": {
-          "data": "CEUSERS"
+          "data": "CEUSERS/{{this.params.id}}"
         },
         "prev": {
           "data": ""
@@ -40,13 +40,8 @@
             "children": [
               {
                 "condition": "EQ",
-                "key": "rol",
-                "value": "captador"
-              },
-              {
-                "condition": "EQ",
-                "key": "activo",
-                "value": "true"
+                "key": "codigo_usuario",
+                "value": " {{this.params.codigo_usuario}}"
               }
             ],
             "condition": "AND"
@@ -63,10 +58,20 @@
       "name": "FirestoreRCash",
       "pluginId": "firestore-plugin"
     },
-    "dynamicBindingPathList": [],
-    "name": "Get_Captadores",
+    "dynamicBindingPathList": [
+      {
+        "key": "formData.body.data"
+      },
+      {
+        "key": "formData.where.data.children[0].value"
+      },
+      {
+        "key": "formData.path.data"
+      }
+    ],
+    "name": "UpdateUsuarioPassword",
     "pageId": "VerTodasLasTiendas",
-    "runBehaviour": "ON_PAGE_LOAD",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

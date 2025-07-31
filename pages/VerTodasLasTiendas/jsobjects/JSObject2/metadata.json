@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "68361b0199ac85635af1fb52_b1f29ff1-4b56-4b82-9292-5424c3bacf67",
+  "id": "VerTodasLasTiendas_JSObject2",
+  "unpublishedCollection": {
+    "name": "JSObject2",
+    "pageId": "VerTodasLasTiendas",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  }
+}
